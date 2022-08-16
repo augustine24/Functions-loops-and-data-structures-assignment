@@ -136,7 +136,7 @@ def main():
     print("Tax for the order is: " + str(tax))
     
     total = subtotal + tax
-    print(total)
+    print("Total for the order is: " + str(total))
 
     items, subtotal = summarize_order(order)
     # print(items)
