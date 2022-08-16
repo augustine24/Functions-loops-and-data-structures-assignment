@@ -130,13 +130,13 @@ def main():
     print_order(order)
 
     subtotal = calculate_subtotal(order)
-    print("Subtotal for the order is: " + str(subtotal))
+    print("Subtotal for the order is: " + str(round(subtotal)))
 
     tax = calculate_tax(subtotal)
-    print("Tax for the order is: " + str(tax))
+    print("Tax for the order is: " + str(round(tax)))
     
     total = subtotal + tax
-    print("Total for the order is: " + str(total))
+    print("Total for the order is: " + str(round(total)))
 
     items, subtotal = summarize_order(order)
     # print(items)
