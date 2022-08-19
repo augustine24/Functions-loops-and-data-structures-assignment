@@ -1,1 +1,1 @@
-An assignment done in coursera that calculates the costs of orders of food. Each comment leads you through the objectives and steps of why certain code is being used.
+An assignment done in coursera that calculates the costs of orders of food. Each comment leads you through the objectives and steps of why certain code is being used. To run the code, you can use Visual Studio Code or https://www.online-python.com/online_python_compiler 
